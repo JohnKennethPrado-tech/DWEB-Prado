@@ -1,5 +1,5 @@
 <?php
-include "includes/header.php";
+include "header.php";
 
 $nationalHolidays = [
   ["name" => "New Year's Day", "date" => "January 1", "image" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH8dQLqjpALURvzMz_hVKx0_G27pK4n4xJtg&s"],
@@ -68,6 +68,7 @@ $imgClasses = ["gow-img-div", "sekiro-img-div", "dazai-img-div", "u4-img-div"];
         </div>
     </main>
 
-    <?php include "includes/footer.php"; ?>
+    <?php include "footer.php"; ?>
 </body>
+
 </html>
